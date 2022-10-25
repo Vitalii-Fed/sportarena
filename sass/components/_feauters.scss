@@ -1,11 +1,4 @@
-.feauters {
-    .icon-site {
-        background-image: url(../images/benefits/site.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
+.hall {
     &__list {
         width: 100%;
         display: flex;
@@ -48,8 +41,36 @@
     }
 }
 
+.hall__gym {
+    background-image: url(../images/benefits/gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hall__pool {
+    background-image: url(../images/benefits/pool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hall__box {
+    background-image: url(../images/benefits/box.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hall__tennis {
+    background-image: url(../images/benefits/tennis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (min-width: 768px) {
-    .feauters {
+    .hall {
         &__list {
             flex-direction: row;
             flex-wrap: wrap;
@@ -61,7 +82,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .feauters {
+    .hall {
         &__item {
             width: calc(25% - 22.5px);
         }

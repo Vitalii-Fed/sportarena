@@ -3,11 +3,21 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    &__subtitle {
+        position: absolute;
+        top: 85%;
     }
 
     &__item {
         width: calc(50% - 15px);
+        background-color: #ffffff;
+        p {
+            padding-bottom: 30px;
+        }
     }
 
     &__icon {
@@ -15,15 +25,15 @@
     }
 
     &__link {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         gap: 10px;
-        // height: 92px;
         color: #afb1b8;
-        border: 1px solid #afb1b8;
+        border: 5px solid #afb1b8;
         border-radius: 4px;
         height: 130px;
 
